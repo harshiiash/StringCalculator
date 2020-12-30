@@ -55,7 +55,7 @@ public class StringCalculatorTest {
 		}
     }
 	@Test
-    	public void testOverThou(){`
+    	public void testOverThou(){
     	assertEquals(2, StringCalculator.add("1000,2"));
     }
 	
