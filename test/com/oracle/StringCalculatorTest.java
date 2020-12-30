@@ -30,4 +30,8 @@ public class StringCalculatorTest {
 	public void testTwoNumber(){
 		assertEquals(3, StringCalculator.add("1,2"));
 	}
+        @Test
+    public void testThreeNumber(){ //three numbers
+    	assertEquals(6, StringCalculator.add("1,2,3"));
+    }
 }
